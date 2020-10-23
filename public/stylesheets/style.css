@@ -3,7 +3,11 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  max-height: 100vh;
+  overflow: hidden;
+  background-image: url('../images/bg-min.jpg');
+  background-size: cover;
 }
 
 a {
@@ -15,7 +19,28 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-self: center;
+  background: black;
+  opacity: 0.8;
+  height:100vh;
+  width: 100vw;
+  color: white;
+}
+footer {
+  position: absolute;
+  bottom: -50px;
+  justify-self: flex-end;
 }
 .btn {
   cursor: pointer;
+  width: 100%;
+  background-color: rgb(14, 54, 119);
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
