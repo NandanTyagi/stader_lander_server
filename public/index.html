@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <title>Express</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Städer och Länder Admin</h1>
+  
+    <p> <strong> Lägg till Länder:</strong></p>
+    <form action="/update" method="post">
+      <input type="text" name="id" id="id" placeholder="Ange ID"><br/><br/>
+      <input type="text" name="stad" id="stad" placeholder="Ange land"><br/><br/>
+      <input type="submit" name="submit-btn-add" id="submit-btn-add" class="btn" value="Lägg till">
+      <!-- <input type="submit" name="submit-btn-remove" id="submit-btn-remove" class="btn" value="Ta bort"> -->
+    </form>
+    <br/><br/>
+    <p><strong>Lägg till Städer:</strong></p>
+    <form action="/update" method="post">
+      <input type="text" name="id" id="id" placeholder="Ange ID"><br/><br/>
+      <input type="text" name="stad" id="stad" placeholder="Ange stad"><br/><br/>
+      <input type="text" name="population" id="population" placeholder="Ange population"><br/><br/>
+      <input type="submit" name="submit-btn-add" id="submit-btn-add" class="btn" value="Lägg till">
+      <!-- <input type="submit" name="submit-btn-remove" id="submit-btn-remove" class="btn" value="Ta bort"> -->
+    </form>
+  </div>
+  <script src="javascripts/index.js"></script>
+</body>
+
+</html>
