@@ -8,6 +8,7 @@ body {
   overflow: hidden;
   background-image: url('../images/bg-min.jpg');
   background-size: cover;
+  background-position: fixed;
 }
 
 a {
@@ -15,6 +16,9 @@ a {
 }
 
 .container {
+  position: absolute;
+  top: 100%;
+  left: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,18 +26,21 @@ a {
   align-self: center;
   background: black;
   opacity: 0.8;
-  height:100vh;
+  min-height:100vh;
   width: 100vw;
   color: white;
 }
+form {
+  display: flex;
+}
 footer {
   position: absolute;
-  bottom: -50px;
+  bottom: 10px;
   justify-self: flex-end;
 }
 .btn {
   cursor: pointer;
-  width: 100%;
+  width: 48%;
   background-color: rgb(14, 54, 119);
   color: white;
 }
