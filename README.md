@@ -1,0 +1,2 @@
+# stader_lander_server
+Kravspecifikation:  Två separata sidor, en för att skapa och ändra JSON-filer på med Node.js på Azure och en för presentation av städer och länder. En frontend applikation på GitHub Pages som visar städer och länder utifrån de JSON-svar som generas från Node.js-appen. Till Node.js appen ska man kunna lägga till nya länderoch till dessa länder nya städer samt antal invånare. Våra ändringar skall automatiskt reflekteras på vår frontend sida på GitHub Pages.  
