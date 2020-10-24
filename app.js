@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var staderRouter = require('./routes/stader');
 var landerRouter = require('./routes/lander');
 var addRouter = require('./routes/add');
+var removeRouter = require('./routes/remove');
 
 var app = express();
 
@@ -23,5 +24,6 @@ app.use('/', indexRouter);
 app.use('/stader', staderRouter);
 app.use('/lander', landerRouter);
 app.use('/add', addRouter);
+app.use('/remove', removeRouter);
 
 module.exports = app;
