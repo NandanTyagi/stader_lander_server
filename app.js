@@ -10,7 +10,11 @@ var landerRouter = require('./routes/lander');
 var addRouter = require('./routes/add');
 var removeRouter = require('./routes/remove');
 
+
 var app = express();
+
+app.set('views', path.join(__dirname,'views'));
+app.set('view engine', 'ejs');
 
 app.use(cors());
 

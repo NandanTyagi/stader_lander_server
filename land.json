@@ -10,5 +10,13 @@
   {
     "id": 1,
     "countryname": "Sverige"
+  },
+  {
+    "id": 3,
+    "countryname": "Norge"
+  },
+  {
+    "id": 5,
+    "countryname": "Spanien"
   }
 ]
