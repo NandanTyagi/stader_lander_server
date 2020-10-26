@@ -9,7 +9,8 @@ router.get('/', function(req, res, next) {
     if (err) throw err;
     let lander = JSON.parse(data);
     
-    res.render('lander', {data: show(lander)});
+    //res.render('lander', {data: show(lander)});
+    res.send(lander);
 
   });
 
