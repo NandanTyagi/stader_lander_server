@@ -23,6 +23,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 // app.use(express.static(path.join(__dirname, 'public')));
+app.use('/css',express.static(__dirname + 'public\stylesheets\style.css'));
+app.use('/js',express.static(path.join(__dirname, 'javascript/js')));
+app.use('/img',express.static(path.join(__dirname, 'images/img')));
 
 app.use('/', indexRouter);
 app.use('/stader', staderRouter);

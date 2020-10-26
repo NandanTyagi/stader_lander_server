@@ -52,8 +52,8 @@ router.post('/', urlEncodedParser, function(req, res, next) {
           if(err) throw err;
       })
 
-      res.send(Object.entries(nyLand).join(' | ') + ' sucessfully saved!');
-
+      // res.send(Object.entries(nyLand).join(' | ') + ' sucessfully saved!');
+      res.render('add',{data:Object.entries(nyLand).join(' | ') + ' | Sucessfully saved!'});
     });
   }
 });

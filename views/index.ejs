@@ -76,6 +76,10 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.visa{
+  margin-top: 2em;
+  background-color: rgb(21, 21, 71);
+}
 
   </style>
 </head>
@@ -101,6 +105,7 @@ a:hover {
         <input type="text" name="population" id="population" placeholder="Ange population"><br/>
         <input type="submit" name="submit-btn-add" id="submit-btn-add-stad" class="btn" value="Lägg till stad">
       </form>
+      <button class="btn visa" onclick="document.location.href = './stader'">Visa städer</button>
     </div>
     <div class="form-container">
       <p> <strong> Ta bort Länder:</strong></p>
@@ -117,6 +122,7 @@ a:hover {
         <input type="text" name="population" id="population" placeholder="Ange population"><br/>
         <input type="submit" name="submit-btn-remove" id="submit-btn-remove" class="btn" value="Ta bort stad">
       </form>
+      <button class="btn visa" onclick="document.location.href = './lander'" >Visa Länder</button>
     </div>
     
 
